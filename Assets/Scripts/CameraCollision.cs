@@ -8,14 +8,14 @@ public class CameraCollision : MonoBehaviour
     * tutorial provided by FilmStorm: https://www.youtube.com/watch?v=LbDQHv9z-F0
     */
 
-    public float minDistance = 1.0f;
-    public float maxDistance = 4.0f;
-    public float smooth = 10.0f;
+    public float minDistance = 1.0f; // float for min distance to zoom in 
+    public float maxDistance = 4.0f; // float for max distance to zoom out 
+    public float smooth = 10.0f; // float for how smooth the motion is 
 
     Vector3 dollyDir;
     Vector3 dollyDirAdjustment;
     public float distance;
-    // 
+    // call before the game starts 
     void Awake()
     {
         dollyDir = transform.localPosition.normalized;
