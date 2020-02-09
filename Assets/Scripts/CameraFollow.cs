@@ -8,9 +8,9 @@ public class CameraFollow : MonoBehaviour
      * tutorial provided by FilmStorm: https://www.youtube.com/watch?v=LbDQHv9z-F0
      */
 
-    public float moveSpeed = 120f;
-    public float clampAngle = 80f;
-    public float inputSensitivity = 150f;
+    public float moveSpeed = 120.0f;
+    public float clampAngle = 65.0f;
+    public float inputSensitivity = 150.0f;
 
     public GameObject cameraFollow;
     Vector3 followPos;
@@ -27,8 +27,8 @@ public class CameraFollow : MonoBehaviour
     public float finalInputZ;
     public float smoothX;
     public float smoothY;
-    private float rotX = 0f;
-    private float rotY = 0f;
+    private float rotX = 0.0f;
+    private float rotY = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +58,7 @@ public class CameraFollow : MonoBehaviour
 
         rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
 
-        Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0f);
+        Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0.0f);
         transform.rotation = localRotation;
 
     }
