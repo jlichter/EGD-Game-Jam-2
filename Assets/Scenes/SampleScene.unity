@@ -433,6 +433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956189, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1661338848955956183, guid: ba7bb964dbb6a6348affdd7371d5704e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,6 +508,41 @@ PrefabInstance:
       propertyPath: tpCamera
       value: 
       objectReference: {fileID: 846436145}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: rotateCameraXInput
+      value: RightStickHorizontal1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: rotateCameraYInput
+      value: RightStickVertical1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: horizontalInput
+      value: LeftStickHorizontal1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: verticallInput
+      value: LeftStickVertical1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: jumpInput
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: strafeInput
+      value: 355
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: sprintInput
+      value: 358
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba7bb964dbb6a6348affdd7371d5704e, type: 3}
 --- !u!4 &902934610 stripped
@@ -669,6 +709,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956189, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1661338848955956183, guid: ba7bb964dbb6a6348affdd7371d5704e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -734,6 +779,41 @@ PrefabInstance:
       propertyPath: tpCamera
       value: 
       objectReference: {fileID: 452808314}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: horizontalInput
+      value: LeftStickHorizontal2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: verticallInput
+      value: LeftStickVertical2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: rotateCameraXInput
+      value: RightStickHorizontal2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: rotateCameraYInput
+      value: RightStickVertical2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: jumpInput
+      value: 370
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: strafeInput
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956184, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: sprintInput
+      value: 378
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba7bb964dbb6a6348affdd7371d5704e, type: 3}
 --- !u!4 &1679562115 stripped
