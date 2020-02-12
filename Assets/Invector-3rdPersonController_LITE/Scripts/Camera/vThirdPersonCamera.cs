@@ -67,7 +67,11 @@ public class vThirdPersonCamera : MonoBehaviour
     public void Init()
     {
         if (target == null)
+        {
+            Debug.Log("target is null");
             return;
+        }
+            
 
         _camera = GetComponent<Camera>();
         currentTarget = target;
