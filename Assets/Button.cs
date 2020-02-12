@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
+
+    public List<string> acceptPlayerTags;       //this should contain Player1, Player2 or both, used for check vaild player
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,13 @@ public class Button : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnCollisionEnter(Collision obj)
+    {
+        if (acceptPlayerTags.Contains(obj.gameObject.tag))
+        {
+            Debug.Log("collide with" + obj.gameObject.name);
+        }
     }
 }

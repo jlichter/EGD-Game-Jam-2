@@ -449,6 +449,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956189, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
     - target: {fileID: 1661338848955956183, guid: ba7bb964dbb6a6348affdd7371d5704e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -746,6 +751,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1661338848955956189, guid: ba7bb964dbb6a6348affdd7371d5704e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player1
+      objectReference: {fileID: 0}
     - target: {fileID: 1661338848955956183, guid: ba7bb964dbb6a6348affdd7371d5704e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1002,6 +1012,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365870159802853134, guid: c5a04cff16ade1242b4e443545102a39,
+        type: 3}
+      propertyPath: acceptPlayerTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365870159802853134, guid: c5a04cff16ade1242b4e443545102a39,
+        type: 3}
+      propertyPath: acceptPlayerTags.Array.data[0]
+      value: Player1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5a04cff16ade1242b4e443545102a39, type: 3}
