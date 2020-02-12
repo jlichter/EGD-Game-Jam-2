@@ -23,15 +23,19 @@ public class GameManager : MonoBehaviour
         movingPlatformAnimator1 = movingPlatform1.GetComponent<Animator>();
         movingPlatformAnimator1.speed = movingSpeed1;
         currentAngle1 = targetAngle1_0;
-        coroutine = RotatePlatform(rotatingPlatform1, 2.0f);
-        StartCoroutine(coroutine);
+        //coroutine = RotatePlatform(rotatingPlatform1, 2.0f);
+        //StartCoroutine(coroutine);
+    }
+    private void Update() {
+        Quaternion.Slerp(rotatingPlatform1.transform.rotation, currentAngle1, 0.3f);
+        ChangeCurrentAngle();
     }
 
     IEnumerator RotatePlatform(GameObject platform, float duration) {
 
         while (true) {
             Debug.Log("got it");
-            Quaternion.Slerp(platform.transform.rotation, currentAngle1, 2.0f);
+            Quaternion.Slerp(platform.transform.rotation, currentAngle1, 0.3f);
             yield return new WaitForSeconds(duration);
             ChangeCurrentAngle();
         }
