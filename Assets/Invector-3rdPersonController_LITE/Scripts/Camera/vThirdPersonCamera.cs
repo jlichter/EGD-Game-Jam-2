@@ -1,5 +1,6 @@
 ﻿using Invector;
 using UnityEngine;
+using System.Collections;
 
 public class vThirdPersonCamera : MonoBehaviour
 {
@@ -66,7 +67,11 @@ public class vThirdPersonCamera : MonoBehaviour
     public void Init()
     {
         if (target == null)
+        {
+            Debug.Log("target is null");
             return;
+        }
+            
 
         _camera = GetComponent<Camera>();
         currentTarget = target;
@@ -86,8 +91,11 @@ public class vThirdPersonCamera : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (target == null || targetLookAt == null) return;
-
+        if (target == null || targetLookAt == null)
+        {
+            Debug.Log("target is null or targetLookAt is null");
+            return;
+        }
         CameraMovement();
     }
 
@@ -128,7 +136,7 @@ public class vThirdPersonCamera : MonoBehaviour
     {
         // free rotation 
         mouseX += x * xMouseSensitivity;
-        mouseY -= y * yMouseSensitivity;
+        mouseY += y * yMouseSensitivity;
 
         movementSpeed.x = x;
         movementSpeed.y = -y;

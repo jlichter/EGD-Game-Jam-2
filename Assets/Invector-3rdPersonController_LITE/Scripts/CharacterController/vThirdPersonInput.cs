@@ -17,9 +17,9 @@ namespace Invector.vCharacterController
         public string rotateCameraXInput = "Mouse X";
         public string rotateCameraYInput = "Mouse Y";
 
-        [HideInInspector] public vThirdPersonController cc;
-        [HideInInspector] public vThirdPersonCamera tpCamera;
-        [HideInInspector] public Camera cameraMain;
+        public vThirdPersonController cc;
+        public vThirdPersonCamera tpCamera;
+        public Camera cameraMain;
 
         #endregion
 
@@ -84,7 +84,7 @@ namespace Invector.vCharacterController
         public virtual void MoveInput()
         {
             cc.input.x = Input.GetAxis(horizontalInput);
-            cc.input.z = Input.GetAxis(verticallInput);
+            cc.input.z = -Input.GetAxis(verticallInput);
         }
 
         protected virtual void CameraInput()
