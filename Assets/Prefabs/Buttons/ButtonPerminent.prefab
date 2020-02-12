@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2428522140524092180}
   - component: {fileID: 2428522140524092181}
   - component: {fileID: 4252313758823112023}
-  - component: {fileID: 1365870159802853134}
+  - component: {fileID: 7489027536976388928}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -92,8 +92,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 8.26, z: 1}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4252313758823112023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -108,9 +108,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1365870159802853134
+--- !u!114 &7489027536976388928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,3 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28249adadf2e23f418aaa1fa1ccff50d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptPlayerTags: []
