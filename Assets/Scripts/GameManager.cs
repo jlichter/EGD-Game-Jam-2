@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     // to move the first platform back and forth, we have animation and speed 
     public GameObject movingPlatform1;
     Animator movingPlatformAnimator1;
-    public float movingSpeed1 = 0.15f;
+    public float movingSpeed1 = 0.05f;
 
     public GameObject rotatingPlatform1;
     // target angle and original for rotationg platform 1 
@@ -22,25 +22,24 @@ public class GameManager : MonoBehaviour
     {
         movingPlatformAnimator1 = movingPlatform1.GetComponent<Animator>();
         movingPlatformAnimator1.speed = movingSpeed1;
+
         currentAngle1 = targetAngle1_0;
-        //coroutine = RotatePlatform(rotatingPlatform1, 2.0f);
-        //StartCoroutine(coroutine);
+        coroutine = RotatePlatform(rotatingPlatform1, 2.0f);
+        StartCoroutine(coroutine);
     }
-    private void Update() {
-        Quaternion.Slerp(rotatingPlatform1.transform.rotation, currentAngle1, 0.3f);
-        ChangeCurrentAngle();
-    }
+ 
 
     IEnumerator RotatePlatform(GameObject platform, float duration) {
 
         while (true) {
             Debug.Log("got it");
-            Quaternion.Slerp(platform.transform.rotation, currentAngle1, 0.3f);
+            platform.transform.rotation = Quaternion.Slerp(platform.transform.rotation, currentAngle1, 1.0f);
             yield return new WaitForSeconds(duration);
             ChangeCurrentAngle();
         }
 
     }
+    // changes the angle back and forth for rotating platform 
     void ChangeCurrentAngle() {
 
         if(currentAngle1.eulerAngles.x == targetAngle1_0.eulerAngles.x) {
