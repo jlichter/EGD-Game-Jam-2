@@ -1,0 +1,10 @@
+Hello and thank you for purchasing Low Poly Plants.
+
+All the prefabs are set to static.
+
+There are 344 fbx files and 424 prefabs.
+
+Most of the example scenes have baked lights.
+
+Contact me on issues:
+a3deve@gmail.com

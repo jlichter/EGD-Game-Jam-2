@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 426e99a7337af184992981face392c36
+timeCreated: 1554999838
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Pot Plant 121
+    100002: Pot Plant 122
+    100004: Pot Plant 123
+    100006: Pot Plant 124
+    100008: Pot Plant 125
+    100010: Pot Plant 126
+    100012: Pot Plant 127
+    100014: Pot Plant 128
+    100016: Pot Plant 129
+    100018: Pot Plant 130
+    100020: Pot Plant 131
+    100022: Pot Plant 132
+    100024: Pot Plant 133
+    100026: Pot Plant 134
+    100028: Pot Plant 135
+    100030: Pot Plant 136
+    100032: Pot Plant 137
+    100034: Pot Plant 138
+    100036: Pot Plant 139
+    100038: Pot Plant 140
+    100040: Pot Plant 141
+    100042: Pot Plant 142
+    100044: Pot Plant 143
+    100046: Pot Plant 144
+    100048: Pot Plant 145
+    100050: Pot Plant 146
+    100052: Pot Plant 147
+    100054: Pot Plant 148
+    100056: Pot Plant 149
+    100058: Pot Plant 150
+    100060: Pot Plant 151
+    100062: Pot Plant 152
+    100064: //RootNode
+    400000: Pot Plant 121
+    400002: Pot Plant 122
+    400004: Pot Plant 123
+    400006: Pot Plant 124
+    400008: Pot Plant 125
+    400010: Pot Plant 126
+    400012: Pot Plant 127
+    400014: Pot Plant 128
+    400016: Pot Plant 129
+    400018: Pot Plant 130
+    400020: Pot Plant 131
+    400022: Pot Plant 132
+    400024: Pot Plant 133
+    400026: Pot Plant 134
+    400028: Pot Plant 135
+    400030: Pot Plant 136
+    400032: Pot Plant 137
+    400034: Pot Plant 138
+    400036: Pot Plant 139
+    400038: Pot Plant 140
+    400040: Pot Plant 141
+    400042: Pot Plant 142
+    400044: Pot Plant 143
+    400046: Pot Plant 144
+    400048: Pot Plant 145
+    400050: Pot Plant 146
+    400052: Pot Plant 147
+    400054: Pot Plant 148
+    400056: Pot Plant 149
+    400058: Pot Plant 150
+    400060: Pot Plant 151
+    400062: Pot Plant 152
+    400064: //RootNode
+    2300000: Pot Plant 121
+    2300002: Pot Plant 122
+    2300004: Pot Plant 123
+    2300006: Pot Plant 124
+    2300008: Pot Plant 125
+    2300010: Pot Plant 126
+    2300012: Pot Plant 127
+    2300014: Pot Plant 128
+    2300016: Pot Plant 129
+    2300018: Pot Plant 130
+    2300020: Pot Plant 131
+    2300022: Pot Plant 132
+    2300024: Pot Plant 133
+    2300026: Pot Plant 134
+    2300028: Pot Plant 135
+    2300030: Pot Plant 136
+    2300032: Pot Plant 137
+    2300034: Pot Plant 138
+    2300036: Pot Plant 139
+    2300038: Pot Plant 140
+    2300040: Pot Plant 141
+    2300042: Pot Plant 142
+    2300044: Pot Plant 143
+    2300046: Pot Plant 144
+    2300048: Pot Plant 145
+    2300050: Pot Plant 146
+    2300052: Pot Plant 147
+    2300054: Pot Plant 148
+    2300056: Pot Plant 149
+    2300058: Pot Plant 150
+    2300060: Pot Plant 151
+    2300062: Pot Plant 152
+    3300000: Pot Plant 121
+    3300002: Pot Plant 122
+    3300004: Pot Plant 123
+    3300006: Pot Plant 124
+    3300008: Pot Plant 125
+    3300010: Pot Plant 126
+    3300012: Pot Plant 127
+    3300014: Pot Plant 128
+    3300016: Pot Plant 129
+    3300018: Pot Plant 130
+    3300020: Pot Plant 131
+    3300022: Pot Plant 132
+    3300024: Pot Plant 133
+    3300026: Pot Plant 134
+    3300028: Pot Plant 135
+    3300030: Pot Plant 136
+    3300032: Pot Plant 137
+    3300034: Pot Plant 138
+    3300036: Pot Plant 139
+    3300038: Pot Plant 140
+    3300040: Pot Plant 141
+    3300042: Pot Plant 142
+    3300044: Pot Plant 143
+    3300046: Pot Plant 144
+    3300048: Pot Plant 145
+    3300050: Pot Plant 146
+    3300052: Pot Plant 147
+    3300054: Pot Plant 148
+    3300056: Pot Plant 149
+    3300058: Pot Plant 150
+    3300060: Pot Plant 151
+    3300062: Pot Plant 152
+    4300000: Pot Plant 132
+    4300002: Pot Plant 130
+    4300004: Pot Plant 129
+    4300006: Pot Plant 131
+    4300008: Pot Plant 121
+    4300010: Pot Plant 122
+    4300012: Pot Plant 123
+    4300014: Pot Plant 126
+    4300016: Pot Plant 127
+    4300018: Pot Plant 128
+    4300020: Pot Plant 125
+    4300022: Pot Plant 124
+    4300024: Pot Plant 139
+    4300026: Pot Plant 135
+    4300028: Pot Plant 136
+    4300030: Pot Plant 152
+    4300032: Pot Plant 149
+    4300034: Pot Plant 151
+    4300036: Pot Plant 150
+    4300038: Pot Plant 145
+    4300040: Pot Plant 147
+    4300042: Pot Plant 146
+    4300044: Pot Plant 148
+    4300046: Pot Plant 144
+    4300048: Pot Plant 141
+    4300050: Pot Plant 143
+    4300052: Pot Plant 142
+    4300054: Pot Plant 134
+    4300056: Pot Plant 133
+    4300058: Pot Plant 137
+    4300060: Pot Plant 138
+    4300062: Pot Plant 140
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

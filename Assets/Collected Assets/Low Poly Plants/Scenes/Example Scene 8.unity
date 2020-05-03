@@ -1,0 +1,2603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.83823526, g: 0.83823526, b: 0.83823526, a: 1}
+  m_AmbientEquatorColor: {r: 0.5735294, g: 0.71612823, b: 0.7647059, a: 1}
+  m_AmbientGroundColor: {r: 0.52205884, g: 0.52205884, b: 0.52205884, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18101735, g: 0.22658592, b: 0.30727786, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 10
+    m_BakeResolution: 10
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 8
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 1
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 112000002, guid: 41df8f7bd1a92fe49b3027ebf979be4c,
+    type: 2}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &10366781
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715064106994714, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 192 Pot 1 Rounded White (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8facf60084f9e55498bf093e5a9bd64c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &10366782 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4153045937664136, guid: 8facf60084f9e55498bf093e5a9bd64c,
+    type: 2}
+  m_PrefabInternal: {fileID: 10366781}
+--- !u!1001 &13463584
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915914129837846, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 154 Pot 1 Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: dbfb375a1901f5740919401b2d283ea3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &13463585 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4879917203306598, guid: dbfb375a1901f5740919401b2d283ea3,
+    type: 2}
+  m_PrefabInternal: {fileID: 13463584}
+--- !u!1001 &72369092
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101999698229218, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 074 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 940ce2618fe68b3488eabe44de79369e, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &72369093 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4650260607961476, guid: 940ce2618fe68b3488eabe44de79369e,
+    type: 2}
+  m_PrefabInternal: {fileID: 72369092}
+--- !u!1 &131955230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1466167902425198, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 131955231}
+  - component: {fileID: 131955235}
+  - component: {fileID: 131955234}
+  - component: {fileID: 131955233}
+  - component: {fileID: 131955232}
+  m_Layer: 0
+  m_Name: Pot Plant 086 Pot 2 Light Brown (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &131955231
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4194913136876684, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131955230}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6, y: 0, z: -0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1583621619}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &131955232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65272585778700956, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131955230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11175635, y: 0.101371095, z: 0.10876081}
+  m_Center: {x: 0, y: 0.051665895, z: -0.00000036507845}
+--- !u!65 &131955233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65966440621487636, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131955230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11175635, y: 0.101371095, z: 0.10876081}
+  m_Center: {x: 0, y: 0.051665895, z: -0.00000036507845}
+--- !u!23 &131955234
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23853455625558892, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131955230}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: be13ca1e8145cd44dac27f8458a59d42, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 8
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &131955235
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33044461785068246, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131955230}
+  m_Mesh: {fileID: 4300074, guid: 0ee6631147dbfc446a09ced98695c5d2, type: 3}
+--- !u!1001 &272215748
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602064337209290, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 143 Pot 6 Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5ac38475358e3bd4d9e23ff2a35194dd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &272215749 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4358260129378900, guid: 5ac38475358e3bd4d9e23ff2a35194dd,
+    type: 2}
+  m_PrefabInternal: {fileID: 272215748}
+--- !u!1001 &307468451
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1459583300737144, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 128 Pot 2 Round Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 11121095066b5b54290ddb5fe4ef935b, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &307468452 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4708578701697038, guid: 11121095066b5b54290ddb5fe4ef935b,
+    type: 2}
+  m_PrefabInternal: {fileID: 307468451}
+--- !u!1001 &340606918
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048822020509972, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 145 Pot 5 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e49a2c485b4e78c4faf14e29a8f81538, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &340606919 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4658163038547560, guid: e49a2c485b4e78c4faf14e29a8f81538,
+    type: 2}
+  m_PrefabInternal: {fileID: 340606918}
+--- !u!1001 &419967060
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562755192145832, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467115725369638, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 213 Pot 4 Round Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: dec5aa4047a31b045a04fa1a4454f411, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &419967061 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4395752736854832, guid: dec5aa4047a31b045a04fa1a4454f411,
+    type: 2}
+  m_PrefabInternal: {fileID: 419967060}
+--- !u!1001 &426027561
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1649848256819900, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 163 Pot 2 Round Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8faf6e487ee347949bec1bccb379dbfa, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &426027562 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4236355316508804, guid: 8faf6e487ee347949bec1bccb379dbfa,
+    type: 2}
+  m_PrefabInternal: {fileID: 426027561}
+--- !u!1001 &492845703
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931192342508234, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 18 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cc74bd9a432f98c4d838212cb87fd116, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &492845704 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4523824807386178, guid: cc74bd9a432f98c4d838212cb87fd116,
+    type: 2}
+  m_PrefabInternal: {fileID: 492845703}
+--- !u!1001 &675605124
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892625678149324, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 45 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b24dc5000dce116429fdc71a1c96ce10, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &675605125 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4466145199079282, guid: b24dc5000dce116429fdc71a1c96ce10,
+    type: 2}
+  m_PrefabInternal: {fileID: 675605124}
+--- !u!1001 &787227942
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201685423296228, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 01 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &787227943 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4575007730306152, guid: 90d7e94a6fa10fd4c8bcd9285be0ad0c,
+    type: 2}
+  m_PrefabInternal: {fileID: 787227942}
+--- !u!1001 &799111763
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422500780304164, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 082 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ce0d91d87165e01418ae8d5f67532c15, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &799111764 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4357734887953902, guid: ce0d91d87165e01418ae8d5f67532c15,
+    type: 2}
+  m_PrefabInternal: {fileID: 799111763}
+--- !u!1001 &821572802
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452540607288592, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 157 Pot 1 Rounded Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 261c7282f0755f5418461e2bb3eca128, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &821572803 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4288886361510960, guid: 261c7282f0755f5418461e2bb3eca128,
+    type: 2}
+  m_PrefabInternal: {fileID: 821572802}
+--- !u!1001 &852275719
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317031329901956, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 152 Pot 7 Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2b0acba88da4d014593549b445f71c8c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &852275720 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4468875845369112, guid: 2b0acba88da4d014593549b445f71c8c,
+    type: 2}
+  m_PrefabInternal: {fileID: 852275719}
+--- !u!1001 &959953936
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428667710521350, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 051 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 93f8abfc703760549a9f04739aceb689, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &959953937 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4718945936569084, guid: 93f8abfc703760549a9f04739aceb689,
+    type: 2}
+  m_PrefabInternal: {fileID: 959953936}
+--- !u!1001 &993153263
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532413626715318, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119975878433242, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 069 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 74d108c9daa2a7e4cb5385be92504a38, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &993153264 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4281224506247048, guid: 74d108c9daa2a7e4cb5385be92504a38,
+    type: 2}
+  m_PrefabInternal: {fileID: 993153263}
+--- !u!1 &1026524572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1026524577}
+  - component: {fileID: 1026524576}
+  - component: {fileID: 1026524575}
+  - component: {fileID: 1026524574}
+  - component: {fileID: 1026524573}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1026524573
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026524572}
+  m_Enabled: 1
+--- !u!124 &1026524574
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026524572}
+  m_Enabled: 1
+--- !u!92 &1026524575
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026524572}
+  m_Enabled: 1
+--- !u!20 &1026524576
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026524572}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.21323532, g: 0.8697768, b: 1, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1.47
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1026524577
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026524572}
+  m_LocalRotation: {x: -0.09345364, y: 0.89971006, z: -0.23741645, w: -0.35414937}
+  m_LocalPosition: {x: 1.64, y: 1.50902, z: 1.5310421}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1075698489
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788809552794958, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 133 Pot 4 Rounded Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 22bce97bdbda1834b97ecb1d82987103, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1075698490 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4057275151428308, guid: 22bce97bdbda1834b97ecb1d82987103,
+    type: 2}
+  m_PrefabInternal: {fileID: 1075698489}
+--- !u!1001 &1145002631
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358144373607252, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 202 Pot 4 Round Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3c904cf74ed7a054aa4d009fd58aa56a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1145002632 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4426156956044380, guid: 3c904cf74ed7a054aa4d009fd58aa56a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1145002631}
+--- !u!1001 &1171801749
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1128400575249118, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 128 Pot 3 Round Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 925e1e67a29864c4f88e9ba969716973, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1171801750 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4417054715296734, guid: 925e1e67a29864c4f88e9ba969716973,
+    type: 2}
+  m_PrefabInternal: {fileID: 1171801749}
+--- !u!1001 &1172316341
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665410467182338, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 047 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8069a06c8905d3d42b2f6efeb3e05e21, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1172316342 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4741089141940478, guid: 8069a06c8905d3d42b2f6efeb3e05e21,
+    type: 2}
+  m_PrefabInternal: {fileID: 1172316341}
+--- !u!1001 &1287482897
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4851490673753480, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671813130329752, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 216 Pot 4 Round Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 05397ba9a67d0a14496bb5c689fc36ec, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1287482898 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4948898914983002, guid: 05397ba9a67d0a14496bb5c689fc36ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 1287482897}
+--- !u!1001 &1296755934
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231260749637358, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 126 Pot 9 Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ce7a53fd8b5951240baae34bc0fa41d7, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1296755935 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4154606593114770, guid: ce7a53fd8b5951240baae34bc0fa41d7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1296755934}
+--- !u!1001 &1325537431
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071915230450888, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 140 Pot Hexa Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: afc2135dd9cc4904285f7dd557d7a7e3, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1325537432 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4795219037504958, guid: afc2135dd9cc4904285f7dd557d7a7e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1325537431}
+--- !u!1001 &1326251039
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.842
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2de3dc1d3dbe86c47aa523411c3754f2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1326251040 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4277063017301070, guid: 2de3dc1d3dbe86c47aa523411c3754f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1326251039}
+--- !u!1 &1358606837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1107045290780976, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1358606838}
+  - component: {fileID: 1358606840}
+  - component: {fileID: 1358606839}
+  m_Layer: 0
+  m_Name: Pot Plant 086
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1358606838
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4731440759819074, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1358606837}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6, y: 0.053900003, z: -0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1583621619}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1358606839
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23378537643100484, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1358606837}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: be13ca1e8145cd44dac27f8458a59d42, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 10
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1358606840
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33579048166182538, guid: eb92708f8bbde0e4d9f9a221b2cf9b51,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1358606837}
+  m_Mesh: {fileID: 4300098, guid: 4854d718c1ef24f4386806721c2a366a, type: 3}
+--- !u!1001 &1489774058
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410830350613514, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 172 Pot 2 Round Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1fbca582b245cb443959f90b0efb016d, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1489774059 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4184134182307918, guid: 1fbca582b245cb443959f90b0efb016d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1489774058}
+--- !u!1001 &1508611434
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813081921779706, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 155 Pot 1 Orange (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ed470cb3bcb97254ca41ea2a8ecca110, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1508611435 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4149840984466426, guid: ed470cb3bcb97254ca41ea2a8ecca110,
+    type: 2}
+  m_PrefabInternal: {fileID: 1508611434}
+--- !u!1001 &1547103545
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821852479534150, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 079 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5e0d27ac4e09531489d0adc0a84d13ca, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1547103546 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4171985520403042, guid: 5e0d27ac4e09531489d0adc0a84d13ca,
+    type: 2}
+  m_PrefabInternal: {fileID: 1547103545}
+--- !u!1 &1583621618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1583621619}
+  m_Layer: 0
+  m_Name: Plants
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583621619
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583621618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1326251040}
+  - {fileID: 1951372662}
+  - {fileID: 1889300555}
+  - {fileID: 1993626424}
+  - {fileID: 492845704}
+  - {fileID: 959953937}
+  - {fileID: 72369093}
+  - {fileID: 1547103546}
+  - {fileID: 799111764}
+  - {fileID: 131955231}
+  - {fileID: 1358606838}
+  - {fileID: 1885674337}
+  - {fileID: 1783838441}
+  - {fileID: 1691040851}
+  - {fileID: 1671443038}
+  - {fileID: 1296755935}
+  - {fileID: 307468452}
+  - {fileID: 1171801750}
+  - {fileID: 1075698490}
+  - {fileID: 1325537432}
+  - {fileID: 852275720}
+  - {fileID: 1508611435}
+  - {fileID: 675605125}
+  - {fileID: 340606919}
+  - {fileID: 13463585}
+  - {fileID: 821572803}
+  - {fileID: 426027562}
+  - {fileID: 2068708133}
+  - {fileID: 1958254523}
+  - {fileID: 993153264}
+  - {fileID: 1721802098}
+  - {fileID: 1601830914}
+  - {fileID: 787227943}
+  - {fileID: 272215749}
+  - {fileID: 1489774059}
+  - {fileID: 10366782}
+  - {fileID: 1145002632}
+  - {fileID: 1674931467}
+  - {fileID: 419967061}
+  - {fileID: 1172316342}
+  - {fileID: 1287482898}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1601830913
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478380288687104, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 184 Pot 1 Rounded Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 915f2bb3b0d56634faaff34fe16243ce, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1601830914 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4500002240883300, guid: 915f2bb3b0d56634faaff34fe16243ce,
+    type: 2}
+  m_PrefabInternal: {fileID: 1601830913}
+--- !u!1001 &1671443037
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923724228261396, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 121 Pot 8 Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7f4c425ec686f72499607fd19f91f03c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1671443038 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4651302292150768, guid: 7f4c425ec686f72499607fd19f91f03c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1671443037}
+--- !u!1001 &1674931466
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.32999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211384415590994, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 208 Pot 4 Round Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3df62feab86850d4ea2278e1aee69258, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1674931467 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4247579010475752, guid: 3df62feab86850d4ea2278e1aee69258,
+    type: 2}
+  m_PrefabInternal: {fileID: 1674931466}
+--- !u!1001 &1691040850
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527363480107458, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 107 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d9f4e8c2a1d3ae240b5f015e382b7849, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1691040851 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4181523944736908, guid: d9f4e8c2a1d3ae240b5f015e382b7849,
+    type: 2}
+  m_PrefabInternal: {fileID: 1691040850}
+--- !u!1001 &1721802097
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420207349217770, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 175 Pot 2 Round Black (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 84695762dacf1914f81b170810f8fd49, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1721802098 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4028814356882214, guid: 84695762dacf1914f81b170810f8fd49,
+    type: 2}
+  m_PrefabInternal: {fileID: 1721802097}
+--- !u!1 &1765149001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1765149002}
+  - component: {fileID: 1765149003}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1765149002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765149001}
+  m_LocalRotation: {x: 0.017766545, y: -0.5610869, z: 0.6366414, w: 0.52872837}
+  m_LocalPosition: {x: 0.687, y: 0.78999996, z: -0.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 47.156002, y: -57.063004, z: 73.885}
+--- !u!108 &1765149003
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765149001}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.8
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1001 &1783838440
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891257413210344, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 097 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 70e1208c6ba868849a63716ec62325d5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1783838441 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4660549181887420, guid: 70e1208c6ba868849a63716ec62325d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1783838440}
+--- !u!1 &1846602591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1846602595}
+  - component: {fileID: 1846602594}
+  - component: {fileID: 1846602593}
+  - component: {fileID: 1846602592}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!23 &1846602592
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846602591}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 8
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1846602593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846602591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1846602594
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846602591}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1846602595
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846602591}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.16, y: 0, z: -0.48000002}
+  m_LocalScale: {x: 0.83496094, y: 0.8349602, z: 0.8349602}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1885674336
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674212103694228, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 094 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2e21306a0bdc10845b49bd2decfd1c25, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1885674337 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4025982320410964, guid: 2e21306a0bdc10845b49bd2decfd1c25,
+    type: 2}
+  m_PrefabInternal: {fileID: 1885674336}
+--- !u!1001 &1889300554
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000495719800222, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 062 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b3bf857eee98e145ab7c181ce544d3d, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1889300555 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4587902765846640, guid: 7b3bf857eee98e145ab7c181ce544d3d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1889300554}
+--- !u!1001 &1951372661
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1240424573332458, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 061 Pot 1 Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 33639634635156188, guid: 08a2e8c6076dac14b9ee2091d0d1498c,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300108, guid: f46bc4300cdc8e34e83090107b86523a, type: 3}
+    - target: {fileID: 1652691905502570, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 061
+      objectReference: {fileID: 0}
+    - target: {fileID: 33042631903575510, guid: 08a2e8c6076dac14b9ee2091d0d1498c,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300014, guid: 0ee6631147dbfc446a09ced98695c5d2, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 08a2e8c6076dac14b9ee2091d0d1498c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1951372662 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4474434394810308, guid: 08a2e8c6076dac14b9ee2091d0d1498c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1951372661}
+--- !u!1001 &1958254522
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.17000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000018099951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902214820578848, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 030 Pot 1 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5fd351dd18ed0a040bdf76b281fa848a, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1958254523 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4122101342466496, guid: 5fd351dd18ed0a040bdf76b281fa848a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1958254522}
+--- !u!1001 &1993626423
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197451051651512, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 111 Pot 2 Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 673e015d5ec17254f92c72329a506df1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1993626424 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4740526268720254, guid: 673e015d5ec17254f92c72329a506df1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1993626423}
+--- !u!1001 &2068708132
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583621619}
+    m_Modifications:
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317469592579038, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+      propertyPath: m_Name
+      value: Pot Plant 167 Pot 2 Round Light Brown (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 218b63c8394cb0244aa8ba6acd5ef9f2, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2068708133 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4754448897565260, guid: 218b63c8394cb0244aa8ba6acd5ef9f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 2068708132}

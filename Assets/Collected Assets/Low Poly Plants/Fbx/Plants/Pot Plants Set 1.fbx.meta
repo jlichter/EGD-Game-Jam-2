@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: f46bc4300cdc8e34e83090107b86523a
+timeCreated: 1554916300
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Pot Plant 01
+    100002: Pot Plant 010
+    100004: Pot Plant 011
+    100006: Pot Plant 012
+    100008: Pot Plant 013
+    100010: Pot Plant 014
+    100012: Pot Plant 015
+    100014: Pot Plant 016
+    100016: Pot Plant 017
+    100018: Pot Plant 018
+    100020: Pot Plant 019
+    100022: Pot Plant 02
+    100024: Pot Plant 020
+    100026: Pot Plant 021
+    100028: Pot Plant 022
+    100030: Pot Plant 023
+    100032: Pot Plant 024
+    100034: Pot Plant 025
+    100036: Pot Plant 026
+    100038: Pot Plant 027
+    100040: Pot Plant 028
+    100042: Pot Plant 029
+    100044: Pot Plant 03
+    100046: Pot Plant 030
+    100048: Pot Plant 031
+    100050: Pot Plant 032
+    100052: Pot Plant 033
+    100054: Pot Plant 034
+    100056: Pot Plant 035
+    100058: Pot Plant 036
+    100060: Pot Plant 037
+    100062: Pot Plant 038
+    100064: Pot Plant 039
+    100066: Pot Plant 04
+    100068: Pot Plant 040
+    100070: Pot Plant 041
+    100072: Pot Plant 042
+    100074: Pot Plant 043
+    100076: Pot Plant 044
+    100078: Pot Plant 045
+    100080: Pot Plant 046
+    100082: Pot Plant 047
+    100084: Pot Plant 048
+    100086: Pot Plant 049
+    100088: Pot Plant 05
+    100090: Pot Plant 050
+    100092: Pot Plant 051
+    100094: Pot Plant 052
+    100096: Pot Plant 053
+    100098: Pot Plant 054
+    100100: Pot Plant 055
+    100102: Pot Plant 056
+    100104: Pot Plant 057
+    100106: Pot Plant 058
+    100108: Pot Plant 059
+    100110: Pot Plant 06
+    100112: Pot Plant 060
+    100114: Pot Plant 061
+    100116: Pot Plant 062
+    100118: Pot Plant 063
+    100120: Pot Plant 064
+    100122: Pot Plant 065
+    100124: Pot Plant 07
+    100126: Pot Plant 08
+    100128: Pot Plant 09
+    100130: //RootNode
+    400000: Pot Plant 01
+    400002: Pot Plant 010
+    400004: Pot Plant 011
+    400006: Pot Plant 012
+    400008: Pot Plant 013
+    400010: Pot Plant 014
+    400012: Pot Plant 015
+    400014: Pot Plant 016
+    400016: Pot Plant 017
+    400018: Pot Plant 018
+    400020: Pot Plant 019
+    400022: Pot Plant 02
+    400024: Pot Plant 020
+    400026: Pot Plant 021
+    400028: Pot Plant 022
+    400030: Pot Plant 023
+    400032: Pot Plant 024
+    400034: Pot Plant 025
+    400036: Pot Plant 026
+    400038: Pot Plant 027
+    400040: Pot Plant 028
+    400042: Pot Plant 029
+    400044: Pot Plant 03
+    400046: Pot Plant 030
+    400048: Pot Plant 031
+    400050: Pot Plant 032
+    400052: Pot Plant 033
+    400054: Pot Plant 034
+    400056: Pot Plant 035
+    400058: Pot Plant 036
+    400060: Pot Plant 037
+    400062: Pot Plant 038
+    400064: Pot Plant 039
+    400066: Pot Plant 04
+    400068: Pot Plant 040
+    400070: Pot Plant 041
+    400072: Pot Plant 042
+    400074: Pot Plant 043
+    400076: Pot Plant 044
+    400078: Pot Plant 045
+    400080: Pot Plant 046
+    400082: Pot Plant 047
+    400084: Pot Plant 048
+    400086: Pot Plant 049
+    400088: Pot Plant 05
+    400090: Pot Plant 050
+    400092: Pot Plant 051
+    400094: Pot Plant 052
+    400096: Pot Plant 053
+    400098: Pot Plant 054
+    400100: Pot Plant 055
+    400102: Pot Plant 056
+    400104: Pot Plant 057
+    400106: Pot Plant 058
+    400108: Pot Plant 059
+    400110: Pot Plant 06
+    400112: Pot Plant 060
+    400114: Pot Plant 061
+    400116: Pot Plant 062
+    400118: Pot Plant 063
+    400120: Pot Plant 064
+    400122: Pot Plant 065
+    400124: Pot Plant 07
+    400126: Pot Plant 08
+    400128: Pot Plant 09
+    400130: //RootNode
+    2300000: Pot Plant 01
+    2300002: Pot Plant 010
+    2300004: Pot Plant 011
+    2300006: Pot Plant 012
+    2300008: Pot Plant 013
+    2300010: Pot Plant 014
+    2300012: Pot Plant 015
+    2300014: Pot Plant 016
+    2300016: Pot Plant 017
+    2300018: Pot Plant 018
+    2300020: Pot Plant 019
+    2300022: Pot Plant 02
+    2300024: Pot Plant 020
+    2300026: Pot Plant 021
+    2300028: Pot Plant 022
+    2300030: Pot Plant 023
+    2300032: Pot Plant 024
+    2300034: Pot Plant 025
+    2300036: Pot Plant 026
+    2300038: Pot Plant 027
+    2300040: Pot Plant 028
+    2300042: Pot Plant 029
+    2300044: Pot Plant 03
+    2300046: Pot Plant 030
+    2300048: Pot Plant 031
+    2300050: Pot Plant 032
+    2300052: Pot Plant 033
+    2300054: Pot Plant 034
+    2300056: Pot Plant 035
+    2300058: Pot Plant 036
+    2300060: Pot Plant 037
+    2300062: Pot Plant 038
+    2300064: Pot Plant 039
+    2300066: Pot Plant 04
+    2300068: Pot Plant 040
+    2300070: Pot Plant 041
+    2300072: Pot Plant 042
+    2300074: Pot Plant 043
+    2300076: Pot Plant 044
+    2300078: Pot Plant 045
+    2300080: Pot Plant 046
+    2300082: Pot Plant 047
+    2300084: Pot Plant 048
+    2300086: Pot Plant 049
+    2300088: Pot Plant 05
+    2300090: Pot Plant 050
+    2300092: Pot Plant 051
+    2300094: Pot Plant 052
+    2300096: Pot Plant 053
+    2300098: Pot Plant 054
+    2300100: Pot Plant 055
+    2300102: Pot Plant 056
+    2300104: Pot Plant 057
+    2300106: Pot Plant 058
+    2300108: Pot Plant 059
+    2300110: Pot Plant 06
+    2300112: Pot Plant 060
+    2300114: Pot Plant 061
+    2300116: Pot Plant 062
+    2300118: Pot Plant 063
+    2300120: Pot Plant 064
+    2300122: Pot Plant 065
+    2300124: Pot Plant 07
+    2300126: Pot Plant 08
+    2300128: Pot Plant 09
+    3300000: Pot Plant 01
+    3300002: Pot Plant 010
+    3300004: Pot Plant 011
+    3300006: Pot Plant 012
+    3300008: Pot Plant 013
+    3300010: Pot Plant 014
+    3300012: Pot Plant 015
+    3300014: Pot Plant 016
+    3300016: Pot Plant 017
+    3300018: Pot Plant 018
+    3300020: Pot Plant 019
+    3300022: Pot Plant 02
+    3300024: Pot Plant 020
+    3300026: Pot Plant 021
+    3300028: Pot Plant 022
+    3300030: Pot Plant 023
+    3300032: Pot Plant 024
+    3300034: Pot Plant 025
+    3300036: Pot Plant 026
+    3300038: Pot Plant 027
+    3300040: Pot Plant 028
+    3300042: Pot Plant 029
+    3300044: Pot Plant 03
+    3300046: Pot Plant 030
+    3300048: Pot Plant 031
+    3300050: Pot Plant 032
+    3300052: Pot Plant 033
+    3300054: Pot Plant 034
+    3300056: Pot Plant 035
+    3300058: Pot Plant 036
+    3300060: Pot Plant 037
+    3300062: Pot Plant 038
+    3300064: Pot Plant 039
+    3300066: Pot Plant 04
+    3300068: Pot Plant 040
+    3300070: Pot Plant 041
+    3300072: Pot Plant 042
+    3300074: Pot Plant 043
+    3300076: Pot Plant 044
+    3300078: Pot Plant 045
+    3300080: Pot Plant 046
+    3300082: Pot Plant 047
+    3300084: Pot Plant 048
+    3300086: Pot Plant 049
+    3300088: Pot Plant 05
+    3300090: Pot Plant 050
+    3300092: Pot Plant 051
+    3300094: Pot Plant 052
+    3300096: Pot Plant 053
+    3300098: Pot Plant 054
+    3300100: Pot Plant 055
+    3300102: Pot Plant 056
+    3300104: Pot Plant 057
+    3300106: Pot Plant 058
+    3300108: Pot Plant 059
+    3300110: Pot Plant 06
+    3300112: Pot Plant 060
+    3300114: Pot Plant 061
+    3300116: Pot Plant 062
+    3300118: Pot Plant 063
+    3300120: Pot Plant 064
+    3300122: Pot Plant 065
+    3300124: Pot Plant 07
+    3300126: Pot Plant 08
+    3300128: Pot Plant 09
+    4300000: Pot Plant 045
+    4300002: Pot Plant 043
+    4300004: Pot Plant 044
+    4300006: Pot Plant 042
+    4300008: Pot Plant 041
+    4300010: Pot Plant 032
+    4300012: Pot Plant 033
+    4300014: Pot Plant 035
+    4300016: Pot Plant 034
+    4300018: Pot Plant 031
+    4300020: Pot Plant 037
+    4300022: Pot Plant 038
+    4300024: Pot Plant 039
+    4300026: Pot Plant 036
+    4300028: Pot Plant 040
+    4300030: Pot Plant 028
+    4300032: Pot Plant 026
+    4300034: Pot Plant 027
+    4300036: Pot Plant 029
+    4300038: Pot Plant 030
+    4300040: Pot Plant 05
+    4300042: Pot Plant 03
+    4300044: Pot Plant 02
+    4300046: Pot Plant 01
+    4300048: Pot Plant 04
+    4300050: Pot Plant 012
+    4300052: Pot Plant 011
+    4300054: Pot Plant 013
+    4300056: Pot Plant 014
+    4300058: Pot Plant 015
+    4300060: Pot Plant 020
+    4300062: Pot Plant 019
+    4300064: Pot Plant 017
+    4300066: Pot Plant 016
+    4300068: Pot Plant 018
+    4300070: Pot Plant 09
+    4300072: Pot Plant 07
+    4300074: Pot Plant 06
+    4300076: Pot Plant 08
+    4300078: Pot Plant 010
+    4300080: Pot Plant 021
+    4300082: Pot Plant 023
+    4300084: Pot Plant 025
+    4300086: Pot Plant 024
+    4300088: Pot Plant 022
+    4300090: Pot Plant 047
+    4300092: Pot Plant 046
+    4300094: Pot Plant 049
+    4300096: Pot Plant 048
+    4300098: Pot Plant 050
+    4300100: Pot Plant 062
+    4300102: Pot Plant 063
+    4300104: Pot Plant 065
+    4300106: Pot Plant 064
+    4300108: Pot Plant 061
+    4300110: Pot Plant 058
+    4300112: Pot Plant 059
+    4300114: Pot Plant 057
+    4300116: Pot Plant 056
+    4300118: Pot Plant 060
+    4300120: Pot Plant 055
+    4300122: Pot Plant 054
+    4300124: Pot Plant 053
+    4300126: Pot Plant 052
+    4300128: Pot Plant 051
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

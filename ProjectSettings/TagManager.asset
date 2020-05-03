@@ -7,6 +7,10 @@ TagManager:
   - Fire
   - Player1
   - Player2
+  - platform
+  - projectileTrigger
+  - projectileMirror
+  - targetProjectile1
   layers:
   - Default
   - TransparentFX

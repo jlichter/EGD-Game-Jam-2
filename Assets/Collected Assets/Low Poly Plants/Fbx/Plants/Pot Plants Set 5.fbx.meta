@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 0842177b76046334bb423b68606c5f57
+timeCreated: 1555227964
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Pot Plant 202
+    100002: Pot Plant 203
+    100004: Pot Plant 204
+    100006: Pot Plant 205
+    100008: Pot Plant 206
+    100010: Pot Plant 207
+    100012: Pot Plant 208
+    100014: Pot Plant 209
+    100016: Pot Plant 210
+    100018: Pot Plant 211
+    100020: Pot Plant 212
+    100022: Pot Plant 213
+    100024: Pot Plant 214
+    100026: Pot Plant 215
+    100028: Pot Plant 216
+    100030: Pot Plant 217
+    100032: //RootNode
+    400000: Pot Plant 202
+    400002: Pot Plant 203
+    400004: Pot Plant 204
+    400006: Pot Plant 205
+    400008: Pot Plant 206
+    400010: Pot Plant 207
+    400012: Pot Plant 208
+    400014: Pot Plant 209
+    400016: Pot Plant 210
+    400018: Pot Plant 211
+    400020: Pot Plant 212
+    400022: Pot Plant 213
+    400024: Pot Plant 214
+    400026: Pot Plant 215
+    400028: Pot Plant 216
+    400030: Pot Plant 217
+    400032: //RootNode
+    2300000: Pot Plant 202
+    2300002: Pot Plant 203
+    2300004: Pot Plant 204
+    2300006: Pot Plant 205
+    2300008: Pot Plant 206
+    2300010: Pot Plant 207
+    2300012: Pot Plant 208
+    2300014: Pot Plant 209
+    2300016: Pot Plant 210
+    2300018: Pot Plant 211
+    2300020: Pot Plant 212
+    2300022: Pot Plant 213
+    2300024: Pot Plant 214
+    2300026: Pot Plant 215
+    2300028: Pot Plant 216
+    2300030: Pot Plant 217
+    3300000: Pot Plant 202
+    3300002: Pot Plant 203
+    3300004: Pot Plant 204
+    3300006: Pot Plant 205
+    3300008: Pot Plant 206
+    3300010: Pot Plant 207
+    3300012: Pot Plant 208
+    3300014: Pot Plant 209
+    3300016: Pot Plant 210
+    3300018: Pot Plant 211
+    3300020: Pot Plant 212
+    3300022: Pot Plant 213
+    3300024: Pot Plant 214
+    3300026: Pot Plant 215
+    3300028: Pot Plant 216
+    3300030: Pot Plant 217
+    4300000: Pot Plant 204
+    4300002: Pot Plant 202
+    4300004: Pot Plant 203
+    4300006: Pot Plant 205
+    4300008: Pot Plant 215
+    4300010: Pot Plant 216
+    4300012: Pot Plant 214
+    4300014: Pot Plant 217
+    4300016: Pot Plant 213
+    4300018: Pot Plant 211
+    4300020: Pot Plant 209
+    4300022: Pot Plant 210
+    4300024: Pot Plant 212
+    4300026: Pot Plant 208
+    4300028: Pot Plant 206
+    4300030: Pot Plant 207
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

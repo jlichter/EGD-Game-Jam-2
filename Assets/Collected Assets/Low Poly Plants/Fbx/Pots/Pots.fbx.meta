@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 0ee6631147dbfc446a09ced98695c5d2
+timeCreated: 1553413598
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Claypot 1 Round Orange
+    100002: Claypot 2 Round Orange
+    100004: Claypot 3 Round Orange
+    100006: Claypot 4 Round Orange
+    100008: Pot 1 Black
+    100010: Pot 1 Light Brown
+    100012: Pot 1 Round Black
+    100014: Pot 1 Round Light Brown
+    100016: Pot 1 Round White
+    100018: Pot 1 Rounded Black
+    100020: Pot 1 Rounded Light Brown
+    100022: Pot 1 Rounded White
+    100024: Pot 1 White
+    100026: Pot 2 Black
+    100028: Pot 2 Light Brown
+    100030: Pot 2 Round Black
+    100032: Pot 2 Round Light Brown
+    100034: Pot 2 Round White
+    100036: Pot 2 Rounded Black
+    100038: Pot 2 Rounded Light Brown
+    100040: Pot 2 Rounded White
+    100042: Pot 2 White
+    100044: Pot 3 Black
+    100046: Pot 3 Light Brown
+    100048: Pot 3 Round Black
+    100050: Pot 3 Round Light Brown
+    100052: Pot 3 Round White
+    100054: Pot 3 Rounded Black
+    100056: Pot 3 Rounded Light Brown
+    100058: Pot 3 Rounded White
+    100060: Pot 3 White
+    100062: Pot 4 Black
+    100064: Pot 4 Light Brown
+    100066: Pot 4 Round Black
+    100068: Pot 4 Round Light Brown
+    100070: Pot 4 Round White
+    100072: Pot 4 Rounded Black
+    100074: Pot 4 Rounded Light Brown
+    100076: Pot 4 Rounded White
+    100078: Pot 4 White
+    100080: //RootNode
+    100082: Pot Hexa Black
+    100084: Pot Hexa Light Brown
+    100086: Pot Hexa White
+    100088: Pot 5 Black
+    100090: Pot 5 Light Brown
+    100092: Pot 5 Orange
+    100094: Pot 5 White
+    100096: Pot 6 Black
+    100098: Pot 6 Light Brown
+    100100: Pot 6 Orange
+    100102: Pot 6 White
+    100104: Pot 7 Black
+    100106: Pot 7 Light Brown
+    100108: Pot 7 Orange
+    100110: Pot 7 White
+    100112: Pot 8 Black
+    100114: Pot 8 Light Brown
+    100116: Pot 8 Orange
+    100118: Pot 8 White
+    100120: Pot 9 Black
+    100122: Pot 9 Light Brown
+    100124: Pot 9 Orange
+    100126: Pot 9 White
+    100128: Pot 1 Orange
+    100130: Pot 1 Rounded Orange
+    100132: Pot 2 Black.001
+    100134: Pot 2 Rounded Orange
+    100136: Pot 3 Orange
+    100138: Pot 3 Rounded Orange
+    100140: Pot 4 Orange
+    100142: Pot 4 Rounded Orange
+    100144: Pot Hexa Orange
+    100146: Pot 2 Orange
+    100148: Pot 1 Round Orange
+    100150: Pot 2 Round Orange
+    100152: Pot 3 Round Orange
+    100154: Pot 4 Round Orange
+    400000: Claypot 1 Round Orange
+    400002: Claypot 2 Round Orange
+    400004: Claypot 3 Round Orange
+    400006: Claypot 4 Round Orange
+    400008: Pot 1 Black
+    400010: Pot 1 Light Brown
+    400012: Pot 1 Round Black
+    400014: Pot 1 Round Light Brown
+    400016: Pot 1 Round White
+    400018: Pot 1 Rounded Black
+    400020: Pot 1 Rounded Light Brown
+    400022: Pot 1 Rounded White
+    400024: Pot 1 White
+    400026: Pot 2 Black
+    400028: Pot 2 Light Brown
+    400030: Pot 2 Round Black
+    400032: Pot 2 Round Light Brown
+    400034: Pot 2 Round White
+    400036: Pot 2 Rounded Black
+    400038: Pot 2 Rounded Light Brown
+    400040: Pot 2 Rounded White
+    400042: Pot 2 White
+    400044: Pot 3 Black
+    400046: Pot 3 Light Brown
+    400048: Pot 3 Round Black
+    400050: Pot 3 Round Light Brown
+    400052: Pot 3 Round White
+    400054: Pot 3 Rounded Black
+    400056: Pot 3 Rounded Light Brown
+    400058: Pot 3 Rounded White
+    400060: Pot 3 White
+    400062: Pot 4 Black
+    400064: Pot 4 Light Brown
+    400066: Pot 4 Round Black
+    400068: Pot 4 Round Light Brown
+    400070: Pot 4 Round White
+    400072: Pot 4 Rounded Black
+    400074: Pot 4 Rounded Light Brown
+    400076: Pot 4 Rounded White
+    400078: Pot 4 White
+    400080: //RootNode
+    400082: Pot Hexa Black
+    400084: Pot Hexa Light Brown
+    400086: Pot Hexa White
+    400088: Pot 5 Black
+    400090: Pot 5 Light Brown
+    400092: Pot 5 Orange
+    400094: Pot 5 White
+    400096: Pot 6 Black
+    400098: Pot 6 Light Brown
+    400100: Pot 6 Orange
+    400102: Pot 6 White
+    400104: Pot 7 Black
+    400106: Pot 7 Light Brown
+    400108: Pot 7 Orange
+    400110: Pot 7 White
+    400112: Pot 8 Black
+    400114: Pot 8 Light Brown
+    400116: Pot 8 Orange
+    400118: Pot 8 White
+    400120: Pot 9 Black
+    400122: Pot 9 Light Brown
+    400124: Pot 9 Orange
+    400126: Pot 9 White
+    400128: Pot 1 Orange
+    400130: Pot 1 Rounded Orange
+    400132: Pot 2 Black.001
+    400134: Pot 2 Rounded Orange
+    400136: Pot 3 Orange
+    400138: Pot 3 Rounded Orange
+    400140: Pot 4 Orange
+    400142: Pot 4 Rounded Orange
+    400144: Pot Hexa Orange
+    400146: Pot 2 Orange
+    400148: Pot 1 Round Orange
+    400150: Pot 2 Round Orange
+    400152: Pot 3 Round Orange
+    400154: Pot 4 Round Orange
+    2300000: Claypot 1 Round Orange
+    2300002: Claypot 2 Round Orange
+    2300004: Claypot 3 Round Orange
+    2300006: Claypot 4 Round Orange
+    2300008: Pot 1 Black
+    2300010: Pot 1 Light Brown
+    2300012: Pot 1 Round Black
+    2300014: Pot 1 Round Light Brown
+    2300016: Pot 1 Round White
+    2300018: Pot 1 Rounded Black
+    2300020: Pot 1 Rounded Light Brown
+    2300022: Pot 1 Rounded White
+    2300024: Pot 1 White
+    2300026: Pot 2 Black
+    2300028: Pot 2 Light Brown
+    2300030: Pot 2 Round Black
+    2300032: Pot 2 Round Light Brown
+    2300034: Pot 2 Round White
+    2300036: Pot 2 Rounded Black
+    2300038: Pot 2 Rounded Light Brown
+    2300040: Pot 2 Rounded White
+    2300042: Pot 2 White
+    2300044: Pot 3 Black
+    2300046: Pot 3 Light Brown
+    2300048: Pot 3 Round Black
+    2300050: Pot 3 Round Light Brown
+    2300052: Pot 3 Round White
+    2300054: Pot 3 Rounded Black
+    2300056: Pot 3 Rounded Light Brown
+    2300058: Pot 3 Rounded White
+    2300060: Pot 3 White
+    2300062: Pot 4 Black
+    2300064: Pot 4 Light Brown
+    2300066: Pot 4 Round Black
+    2300068: Pot 4 Round Light Brown
+    2300070: Pot 4 Round White
+    2300072: Pot 4 Rounded Black
+    2300074: Pot 4 Rounded Light Brown
+    2300076: Pot 4 Rounded White
+    2300078: Pot 4 White
+    2300080: Pot Hexa Black
+    2300082: Pot Hexa Light Brown
+    2300084: Pot Hexa White
+    2300086: Pot 5 Black
+    2300088: Pot 5 Light Brown
+    2300090: Pot 5 Orange
+    2300092: Pot 5 White
+    2300094: Pot 6 Black
+    2300096: Pot 6 Light Brown
+    2300098: Pot 6 Orange
+    2300100: Pot 6 White
+    2300102: Pot 7 Black
+    2300104: Pot 7 Light Brown
+    2300106: Pot 7 Orange
+    2300108: Pot 7 White
+    2300110: Pot 8 Black
+    2300112: Pot 8 Light Brown
+    2300114: Pot 8 Orange
+    2300116: Pot 8 White
+    2300118: Pot 9 Black
+    2300120: Pot 9 Light Brown
+    2300122: Pot 9 Orange
+    2300124: Pot 9 White
+    2300126: Pot 1 Orange
+    2300128: Pot 1 Rounded Orange
+    2300130: Pot 2 Black.001
+    2300132: Pot 2 Rounded Orange
+    2300134: Pot 3 Orange
+    2300136: Pot 3 Rounded Orange
+    2300138: Pot 4 Orange
+    2300140: Pot 4 Rounded Orange
+    2300142: Pot Hexa Orange
+    2300144: Pot 2 Orange
+    2300146: Pot 1 Round Orange
+    2300148: Pot 2 Round Orange
+    2300150: Pot 3 Round Orange
+    2300152: Pot 4 Round Orange
+    3300000: Claypot 1 Round Orange
+    3300002: Claypot 2 Round Orange
+    3300004: Claypot 3 Round Orange
+    3300006: Claypot 4 Round Orange
+    3300008: Pot 1 Black
+    3300010: Pot 1 Light Brown
+    3300012: Pot 1 Round Black
+    3300014: Pot 1 Round Light Brown
+    3300016: Pot 1 Round White
+    3300018: Pot 1 Rounded Black
+    3300020: Pot 1 Rounded Light Brown
+    3300022: Pot 1 Rounded White
+    3300024: Pot 1 White
+    3300026: Pot 2 Black
+    3300028: Pot 2 Light Brown
+    3300030: Pot 2 Round Black
+    3300032: Pot 2 Round Light Brown
+    3300034: Pot 2 Round White
+    3300036: Pot 2 Rounded Black
+    3300038: Pot 2 Rounded Light Brown
+    3300040: Pot 2 Rounded White
+    3300042: Pot 2 White
+    3300044: Pot 3 Black
+    3300046: Pot 3 Light Brown
+    3300048: Pot 3 Round Black
+    3300050: Pot 3 Round Light Brown
+    3300052: Pot 3 Round White
+    3300054: Pot 3 Rounded Black
+    3300056: Pot 3 Rounded Light Brown
+    3300058: Pot 3 Rounded White
+    3300060: Pot 3 White
+    3300062: Pot 4 Black
+    3300064: Pot 4 Light Brown
+    3300066: Pot 4 Round Black
+    3300068: Pot 4 Round Light Brown
+    3300070: Pot 4 Round White
+    3300072: Pot 4 Rounded Black
+    3300074: Pot 4 Rounded Light Brown
+    3300076: Pot 4 Rounded White
+    3300078: Pot 4 White
+    3300080: Pot Hexa Black
+    3300082: Pot Hexa Light Brown
+    3300084: Pot Hexa White
+    3300086: Pot 5 Black
+    3300088: Pot 5 Light Brown
+    3300090: Pot 5 Orange
+    3300092: Pot 5 White
+    3300094: Pot 6 Black
+    3300096: Pot 6 Light Brown
+    3300098: Pot 6 Orange
+    3300100: Pot 6 White
+    3300102: Pot 7 Black
+    3300104: Pot 7 Light Brown
+    3300106: Pot 7 Orange
+    3300108: Pot 7 White
+    3300110: Pot 8 Black
+    3300112: Pot 8 Light Brown
+    3300114: Pot 8 Orange
+    3300116: Pot 8 White
+    3300118: Pot 9 Black
+    3300120: Pot 9 Light Brown
+    3300122: Pot 9 Orange
+    3300124: Pot 9 White
+    3300126: Pot 1 Orange
+    3300128: Pot 1 Rounded Orange
+    3300130: Pot 2 Black.001
+    3300132: Pot 2 Rounded Orange
+    3300134: Pot 3 Orange
+    3300136: Pot 3 Rounded Orange
+    3300138: Pot 4 Orange
+    3300140: Pot 4 Rounded Orange
+    3300142: Pot Hexa Orange
+    3300144: Pot 2 Orange
+    3300146: Pot 1 Round Orange
+    3300148: Pot 2 Round Orange
+    3300150: Pot 3 Round Orange
+    3300152: Pot 4 Round Orange
+    4300000: Claypot 2 Round Orange
+    4300002: Claypot 3 Round Orange
+    4300004: Claypot 4 Round Orange
+    4300006: Claypot 1 Round Orange
+    4300008: Pot 4 Black
+    4300010: Pot 3 Black
+    4300012: Pot 2 Black
+    4300014: Pot 1 Black
+    4300016: Pot 4 Round Black
+    4300018: Pot 3 Round Black
+    4300020: Pot 2 Round Black
+    4300022: Pot 1 Round Black
+    4300024: Pot 4 Rounded Black
+    4300026: Pot 1 Rounded Black
+    4300028: Pot 2 Rounded Black
+    4300030: Pot 3 Rounded Black
+    4300032: Pot 3 Rounded White
+    4300034: Pot 2 Rounded White
+    4300036: Pot 1 Rounded White
+    4300038: Pot 4 Rounded White
+    4300040: Pot 1 Round White
+    4300042: Pot 2 Round White
+    4300044: Pot 3 Round White
+    4300046: Pot 4 Round White
+    4300048: Pot 1 White
+    4300050: Pot 2 White
+    4300052: Pot 3 White
+    4300054: Pot 4 White
+    4300056: Pot 4 Round Light Brown
+    4300058: Pot 3 Round Light Brown
+    4300060: Pot 2 Round Light Brown
+    4300062: Pot 1 Round Light Brown
+    4300064: Pot 4 Rounded Light Brown
+    4300066: Pot 1 Rounded Light Brown
+    4300068: Pot 2 Rounded Light Brown
+    4300070: Pot 3 Rounded Light Brown
+    4300072: Pot 3 Light Brown
+    4300074: Pot 2 Light Brown
+    4300076: Pot 1 Light Brown
+    4300078: Pot 4 Light Brown
+    4300080: Pot Hexa Light Brown
+    4300082: Pot Hexa Black
+    4300084: Pot Hexa White
+    4300086: Pot 6 Light Brown
+    4300088: Pot 6 White
+    4300090: Pot 6 Black
+    4300092: Pot 6 Orange
+    4300094: Pot 5 Orange
+    4300096: Pot 5 Black
+    4300098: Pot 5 White
+    4300100: Pot 5 Light Brown
+    4300102: Pot 7 White
+    4300104: Pot 7 Light Brown
+    4300106: Pot 7 Black
+    4300108: Pot 7 Orange
+    4300110: Pot 9 Orange
+    4300112: Pot 9 Black
+    4300114: Pot 9 Light Brown
+    4300116: Pot 8 Light Brown
+    4300118: Pot 8 White
+    4300120: Pot 8 Black
+    4300122: Pot 8 Orange
+    4300124: Pot 9 White
+    4300126: Pot 3 Rounded Orange
+    4300128: Pot 2 Rounded Orange
+    4300130: Pot 1 Rounded Orange
+    4300132: Pot 4 Rounded Orange
+    4300134: Pot 1 Orange
+    4300136: Pot 2 Black.001
+    4300138: Pot 3 Orange
+    4300140: Pot 4 Orange
+    4300142: Pot Hexa Orange
+    4300144: Pot 2 Orange
+    4300146: Pot 4 Round Orange
+    4300148: Pot 3 Round Orange
+    4300150: Pot 2 Round Orange
+    4300152: Pot 1 Round Orange
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

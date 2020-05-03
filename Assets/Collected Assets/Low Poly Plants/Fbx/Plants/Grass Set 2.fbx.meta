@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 7ccccece4e12f9349a2a19d11d599dc9
+timeCreated: 1555004747
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Grass 027
+    100002: Grass 028
+    100004: Grass 029
+    100006: Grass 030
+    100008: Grass 031
+    100010: Grass 032
+    100012: Grass 033
+    100014: Grass 034
+    100016: Grass 035
+    100018: Grass 036
+    100020: Grass 037
+    100022: Grass 038
+    100024: Grass 039
+    100026: Grass 040
+    100028: Grass 041
+    100030: Grass 042
+    100032: Grass 043
+    100034: Grass 044
+    100036: Grass 045
+    100038: Grass 046
+    100040: Grass 047
+    100042: Grass 048
+    100044: Grass 049
+    100046: Grass 050
+    100048: Grass 051
+    100050: //RootNode
+    400000: Grass 027
+    400002: Grass 028
+    400004: Grass 029
+    400006: Grass 030
+    400008: Grass 031
+    400010: Grass 032
+    400012: Grass 033
+    400014: Grass 034
+    400016: Grass 035
+    400018: Grass 036
+    400020: Grass 037
+    400022: Grass 038
+    400024: Grass 039
+    400026: Grass 040
+    400028: Grass 041
+    400030: Grass 042
+    400032: Grass 043
+    400034: Grass 044
+    400036: Grass 045
+    400038: Grass 046
+    400040: Grass 047
+    400042: Grass 048
+    400044: Grass 049
+    400046: Grass 050
+    400048: Grass 051
+    400050: //RootNode
+    2300000: Grass 027
+    2300002: Grass 028
+    2300004: Grass 029
+    2300006: Grass 030
+    2300008: Grass 031
+    2300010: Grass 032
+    2300012: Grass 033
+    2300014: Grass 034
+    2300016: Grass 035
+    2300018: Grass 036
+    2300020: Grass 037
+    2300022: Grass 038
+    2300024: Grass 039
+    2300026: Grass 040
+    2300028: Grass 041
+    2300030: Grass 042
+    2300032: Grass 043
+    2300034: Grass 044
+    2300036: Grass 045
+    2300038: Grass 046
+    2300040: Grass 047
+    2300042: Grass 048
+    2300044: Grass 049
+    2300046: Grass 050
+    2300048: Grass 051
+    3300000: Grass 027
+    3300002: Grass 028
+    3300004: Grass 029
+    3300006: Grass 030
+    3300008: Grass 031
+    3300010: Grass 032
+    3300012: Grass 033
+    3300014: Grass 034
+    3300016: Grass 035
+    3300018: Grass 036
+    3300020: Grass 037
+    3300022: Grass 038
+    3300024: Grass 039
+    3300026: Grass 040
+    3300028: Grass 041
+    3300030: Grass 042
+    3300032: Grass 043
+    3300034: Grass 044
+    3300036: Grass 045
+    3300038: Grass 046
+    3300040: Grass 047
+    3300042: Grass 048
+    3300044: Grass 049
+    3300046: Grass 050
+    3300048: Grass 051
+    4300000: Grass 037
+    4300002: Grass 038
+    4300004: Grass 039
+    4300006: Grass 040
+    4300008: Grass 041
+    4300010: Grass 031
+    4300012: Grass 030
+    4300014: Grass 029
+    4300016: Grass 028
+    4300018: Grass 027
+    4300020: Grass 032
+    4300022: Grass 033
+    4300024: Grass 034
+    4300026: Grass 035
+    4300028: Grass 036
+    4300030: Grass 047
+    4300032: Grass 043
+    4300034: Grass 046
+    4300036: Grass 045
+    4300038: Grass 042
+    4300040: Grass 044
+    4300042: Grass 048
+    4300044: Grass 049
+    4300046: Grass 051
+    4300048: Grass 050
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
